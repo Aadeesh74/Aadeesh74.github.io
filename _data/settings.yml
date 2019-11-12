@@ -3,10 +3,9 @@
 
 title: Kross - Jekyll Portfolio Template
 logo: logo.png
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-
+email: aadeej@iitk.ac.in, honeyvishu1713@gmail.com
+phone: (+91) 9314695728
+address: A-211, Hall 13, IIT Kanpur, Kanpur, Uttar Pradesh, India (208016)
 menu:
 - {name: About, link: '/about/'}
 - {name: Blog, link: '/blog/'}
@@ -38,10 +37,10 @@ hero:
   hero-title: Hi! I’m <br> Aadeesh Jain <br> Pclub member
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-facebook", link: "https://www.facebook.com/aadeesh.anchit"}
+- {icon: "ti-instagram", link: "https://www.instagram.com/kingslayer_aj/"}
 - {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-twitter", link: "https://twitter.com/AadeeshJain74"}
 
 
 #-------------------------------
