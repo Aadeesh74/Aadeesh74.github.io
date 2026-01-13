@@ -1,23 +1,130 @@
----
-layout: default
----
 
-{% include hero-section.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadeesh Jain | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-{% include about-section.html %}
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Aadeesh Jain</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#hackathons">Hackathons</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="Aadeesh_Resume.pdf" class="resume-btn" target="_blank">Download Resume</a>
+        </div>
+    </header>
 
-{% include skills-section.html %}
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I’m a Software Developer with expertise in embedded systems, AI deployment, and high-performance computing.
+                I focus on building efficient, scalable, and maintainable systems, with experience spanning C++, Python, 
+                machine learning, and edge AI deployment.
+            </p>
+        </div>
+    </section>
 
-{% include experience-section.html %}
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> C++ (11/14/17), C, Python, Bash, R, MATLAB</li>
+                <li><strong>Technologies:</strong> Git, Linux, CMake, GitLab CI/CD, pandas, OpenCV, PyTorch, TensorFlow, Vim, MQTT, CUDA</li>
+                <li><strong>Relevant Courses:</strong> Machine Learning, Deep Learning & CV, OS Fundamentals, Reinforcement Learning</li>
+            </ul>
+        </div>
+    </section>
 
-{% include education-section.html %}
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Software Developer - Siemens Technology</h3>
+                <p><em>Nov 2023 – Present | Bengaluru, India</em></p>
+                <ul>
+                    <li>Implemented TCP/IP protocol for real-time HMI-controller communication, reducing latency by 40%.</li>
+                    <li>Built a cross-platform simulation framework eliminating repeated firmware flashing.</li>
+                    <li>Developed an MQTT-based asynchronous system for remote boiler control.</li>
+                    <li>Designed MVP-architecture UI with LVGL, enhancing stability and maintainability.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Efficient MLOps Pipeline for AI Deployment</h3>
+                <p><em>May 2023 – Nov 2023</em></p>
+                <ul>
+                    <li>Automated dataset processing, model training, and deployment.</li>
+                    <li>Optimized AI for STM32 & MAX series with hardware accelerators.</li>
+                    <li>Achieved 4x model size reduction using QAT.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-{% include services-section.html %}
+    <!-- Projects -->
+    <section id="projects" class="section alt">
+        <div class="container">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Time Series Data Refinement & Transformer-Based Fault Detection:</strong> Improved prediction accuracy by 15% with dynamic covariates and fine-tuning TimesFM & GTT-Client.</li>
+                <li><strong>Automated Testing of Fire Safety Panels:</strong> Integrated robotic arm, camera, and OCR for autonomous industrial testing.</li>
+            </ul>
+        </div>
+    </section>
 
-{% include portfolio-section.html %}
+    <!-- Hackathons -->
+    <section id="hackathons" class="section">
+        <div class="container">
+            <h2>Hackathons & Competitions</h2>
+            <ul>
+                <li><strong>Aavishkar’25 (Winner):</strong> Non-intrusive HMI testing framework for embedded touchscreens.</li>
+                <li><strong>Innovathon’24 (Finalist):</strong> Bluetooth mesh sensor network with real-time heatmap visualization.</li>
+            </ul>
+        </div>
+    </section>
 
-{% include testimonial-section.html %}
+    <!-- Education -->
+    <section id="education" class="section alt">
+        <div class="container">
+            <h2>Education</h2>
+            <p>B.Tech in Civil Engineering, IIT Kanpur (2019 – 2023), GPA: 7.8/10</p>
+        </div>
+    </section>
 
-{% include client-section.html %}
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:jainaadeesh74@gmail.com">jainaadeesh74@gmail.com</a></p>
+            <p>Phone: +91 9314695728</p>
+            <p>
+                <a href="https://www.linkedin.com/in/aadeesh74" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/aadeesh74" target="_blank"><i class="fab fa-github"></i></a>
+            </p>
+        </div>
+    </section>
 
-{% include blog-section.html %}
+    <footer>
+        <p>© 2025 Aadeesh Jain</p>
+    </footer>
+
+</body>
+</html>
